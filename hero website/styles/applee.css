@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: rgba(255,255,255,0.8);
+}
+
+nav .container{
+    display: flex;
+    width:100vw;
+    /*vw=viewport*/
+    flex-direction: row;
+    justify-content: center;
+    /*อยู่ตรงกลสงแนวแกนx*/
+    align-items: center;
+    /*ตรงกลางแกนy*/
+    gap:30px;
+    padding: 10px 0px;
+}
+body{
+    height: 200vh;
+    
+}
+
+section.item-one{
+    
+    margin-top: 40px;
+    height: 50vh;
+    background: url(https://www.apple.com/v/home/bh/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg);
+    background-size:cover;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    
+    
+}
+section.item-two{
+    
+    margin-top: 40px;
+    height: 50vh;
+    background: url(https://www.apple.com/v/home/bh/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_largetall_2x.jpg);
+    background-size:cover;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    
+}
+section.item-one h1{
+    color:white;
+    margin-top: 40px;
+}
+
+section.item-two h1{
+    color:rgb(0, 0, 0);
+    margin-top: 40px;
+}
+section.item-one p{
+    color: white;
+}
+section.ttem-two p{
+    color: rgb(0, 0, 0);
+}
+section div{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+section div a{
+    color: rgb(40, 92, 189);
+}
+main{
+    display: grid;
+    /*grid-template-columns: repeat(2,1fr);*/
+    grid-template-columns: 1fr 1fr;
+    /*grid-template-columns: 50% 50%;*/
+    /*grid-template-columns: 1/2 1/2;*/
+    
+
+}

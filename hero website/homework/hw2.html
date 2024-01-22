@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        a{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meetung Company</h1>
+    <img width="170" src="./src/image/meetung.jpg" alt=""  >
+    
+    <fieldset>
+        <legend>ข้อมูลส่วนตัว</legend>
+        คำนำหน้า:
+        <select>
+            <option value="0">-</option>
+            <option value="1">นาย</option>
+            <option value="2">นาง</option>
+            <option value="3">นางสาว</option>
+            <option value="4">เด็กชาย</option>
+            <option value="5">เด็กหญิง</option>
+        </select>
+        <label>ชื่อจริง:</label>
+        <input type="text">
+        <label>นามสกุล:</label>
+        <input type="text">
+        <br><br>
+        อายุ:
+        <select>
+            <option value="0">-</option>
+            <option value="1">10-15</option>
+            <option value="2">16-20</option>
+        </select>
+        <br><br>
+        <label>Email:</label>
+        <input type="text">
+        <label>Password:</label>
+        <input type="text">
+    </fieldset>
+    <fieldset>
+        <legend>ความสนใจ</legend>
+        <input type="checkbox" id="choice1" >
+        <label for="choice1">เขียนโปรแกรม</label>
+        <input type="checkbox" id="choice2" >
+        <label for="choice2">AI</label>
+        <br><br>
+        ความคิดเห็น:
+        <br>
+        <textarea rows="5" cols="40"></textarea>   
+    </fieldset>
+    <br><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</body>
+</html>
